@@ -1,0 +1,16 @@
+name: ${project.name}
+version: ${project.version}
+main: github.slkhater.shieldplotsquaredplus.Main
+depend: [PlotSquared, ShieldUtils, Vault]
+authors: [FalaHaTEr, slkhater]
+description: ${project.description}
+
+commands:
+  terrenos:
+    usage: /<command>
+    aliases: [terreno, terrain, terrains, land, lands]
+    description: Opens an advanced GUI with PlotSquared features
+  voar:
+    usage: /<command>
+    aliases: [fly, flight]
+    description: Makes you fly like a little bird in your land
